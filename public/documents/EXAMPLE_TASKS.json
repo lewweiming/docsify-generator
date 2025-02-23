@@ -1,0 +1,140 @@
+[
+    {
+      "title": "Introduction",
+      "link": "README.md",
+      "status": "pending"
+    },
+    {
+      "folder": "getting-started",
+      "title": "Creating an Account",
+      "link": "getting-started/account-setup.md",
+      "status": "pending"
+    },
+    {
+      "folder": "getting-started",
+      "title": "Host Dashboard Overview",
+      "link": "getting-started/dashboard-overview.md",
+      "status": "pending"
+    },
+    {
+      "folder": "getting-started",
+      "title": "Platform Rules & Policies",
+      "link": "getting-started/platform-rules.md",
+      "status": "pending"
+    },
+    {
+      "folder": "event-management",
+      "title": "Creating an Event",
+      "link": "event-management/create-event.md",
+      "status": "pending"
+    },
+    {
+      "folder": "event-management",
+      "title": "Managing Your Event",
+      "link": "event-management/manage-event.md",
+      "status": "pending"
+    },
+    {
+      "folder": "event-management",
+      "title": "Editing & Updating Events",
+      "link": "event-management/edit-event.md",
+      "status": "pending"
+    },
+    {
+      "folder": "event-management",
+      "title": "Event Cancellation & Refunds",
+      "link": "event-management/cancel-refund.md",
+      "status": "pending"
+    },
+    {
+      "folder": "ticketing",
+      "title": "Setting Up Tickets",
+      "link": "ticketing/setup-tickets.md",
+      "status": "pending"
+    },
+    {
+      "folder": "ticketing",
+      "title": "Managing Ticket Sales",
+      "link": "ticketing/manage-sales.md",
+      "status": "pending"
+    },
+    {
+      "folder": "ticketing",
+      "title": "Issuing Refunds",
+      "link": "ticketing/issue-refunds.md",
+      "status": "pending"
+    },
+    {
+      "folder": "payments",
+      "title": "Payment Processing",
+      "link": "payments/payment-processing.md",
+      "status": "pending"
+    },
+    {
+      "folder": "payments",
+      "title": "Receiving Payouts",
+      "link": "payments/receiving-payouts.md",
+      "status": "pending"
+    },
+    {
+      "folder": "payments",
+      "title": "Payout Schedule & Fees",
+      "link": "payments/payout-schedule.md",
+      "status": "pending"
+    },
+    {
+      "folder": "attendee-management",
+      "title": "Handling RSVPs",
+      "link": "attendee-management/rsvps.md",
+      "status": "pending"
+    },
+    {
+      "folder": "attendee-management",
+      "title": "Checking In Attendees",
+      "link": "attendee-management/check-in.md",
+      "status": "pending"
+    },
+    {
+      "folder": "attendee-management",
+      "title": "Communicating with Attendees",
+      "link": "attendee-management/communication.md",
+      "status": "pending"
+    },
+    {
+      "folder": "marketing",
+      "title": "Promoting Your Event",
+      "link": "marketing/promotion.md",
+      "status": "pending"
+    },
+    {
+      "folder": "marketing",
+      "title": "Using Discount Codes",
+      "link": "marketing/discount-codes.md",
+      "status": "pending"
+    },
+    {
+      "folder": "marketing",
+      "title": "Social Media Integration",
+      "link": "marketing/social-media.md",
+      "status": "pending"
+    },
+    {
+      "folder": "support",
+      "title": "Contacting Support",
+      "link": "support/contact.md",
+      "status": "pending"
+    },
+    {
+      "folder": "support",
+      "title": "Platform Guidelines & Compliance",
+      "link": "support/guidelines.md",
+      "status": "pending"
+    },
+    {
+      "folder": "support",
+      "title": "Reporting Issues",
+      "link": "support/report-issues.md",
+      "status": "pending"
+    }
+]
+  

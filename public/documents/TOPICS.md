@@ -1,0 +1,30 @@
+- [Introduction](README.md)
+- **Getting Started**
+  - [Creating an Account](getting-started/account-setup.md)
+  - [Host Dashboard Overview](getting-started/dashboard-overview.md)
+  - [Platform Rules & Policies](getting-started/platform-rules.md)
+- **Event Management**
+  - [Creating an Event](event-management/create-event.md)
+  - [Managing Your Event](event-management/manage-event.md)
+  - [Editing & Updating Events](event-management/edit-event.md)
+  - [Event Cancellation & Refunds](event-management/cancel-refund.md)
+- **Ticketing**
+  - [Setting Up Tickets](ticketing/setup-tickets.md)
+  - [Managing Ticket Sales](ticketing/manage-sales.md)
+  - [Issuing Refunds](ticketing/issue-refunds.md)
+- **Payments & Payouts**
+  - [Payment Processing](payments/payment-processing.md)
+  - [Receiving Payouts](payments/receiving-payouts.md)
+  - [Payout Schedule & Fees](payments/payout-schedule.md)
+- **Attendee Management**
+  - [Handling RSVPs](attendee-management/rsvps.md)
+  - [Checking In Attendees](attendee-management/check-in.md)
+  - [Communicating with Attendees](attendee-management/communication.md)
+- **Marketing & Promotion**
+  - [Promoting Your Event](marketing/promotion.md)
+  - [Using Discount Codes](marketing/discount-codes.md)
+  - [Social Media Integration](marketing/social-media.md)
+- **Support & Compliance**
+  - [Contacting Support](support/contact.md)
+  - [Platform Guidelines & Compliance](support/guidelines.md)
+  - [Reporting Issues](support/report-issues.md)
