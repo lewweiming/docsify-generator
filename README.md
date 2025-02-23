@@ -3,4 +3,8 @@
 A Quasar Project
 
 ## TODOS
-- Support for managing multiple projects
+- Add coverpage support
+- Add online publishing support
+- Add author support
+- Ability to tailor and customise individual pages
+- Support for managing multiple projects on cloud

@@ -1,0 +1,13 @@
+.default-font {
+    font-family: "Urbanist", serif;
+}
+
+/* <weight>: Use a value from 100 to 900
+<uniquifier>: Use a unique and descriptive class name
+
+.urbanist-<uniquifier> {
+  font-family: "Urbanist", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */

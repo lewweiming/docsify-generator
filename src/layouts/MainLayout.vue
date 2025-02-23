@@ -6,11 +6,12 @@
 
 
         <q-btn flat size="xl" to="/" class="text-bold text-white no-wrap" no-caps>
-          <span class="q-ml-sm gt-xs">Docsify Generator (AI@Webconxept)</span>
+          <q-icon size="50px" name="img:assets/icons/documents_inverted.svg" />
+          <span class="q-ml-sm gt-xs">Docsify AI Generator</span>
         </q-btn>
         <q-space />
-        <q-btn flat no-caps to="/create-project" label="Create Project" />
-        <q-btn-dropdown flat no-caps label="Manage Project">
+        <q-btn icon="add" flat no-caps to="/create-project" label="Create Project" />
+        <q-btn-dropdown icon="edit" flat no-caps label="Manage Project">
           <q-list>
             <q-item to="/edit-json" clickable v-close-popup>
               <q-item-section>
@@ -24,9 +25,9 @@
             </q-item>
           </q-list>
         </q-btn-dropdown>
-        <q-btn type="a" href="https://ai.webconxept.com/docsify-generator/output" target="blank" flat no-caps to="#"
+        <q-btn icon="preview" type="a" href="https://ai.webconxept.com/docsify-generator/output" target="blank" flat no-caps to="#"
           label="Preview Project" />
-        <q-btn type="a" href="https://ai.webconxept.com/api/docsify-generator/download.php" target="blank" flat no-caps
+        <q-btn icon="download" type="a" href="https://ai.webconxept.com/api/docsify-generator/download.php" target="blank" flat no-caps
           to="#" label="Download Project" />
 
       </q-toolbar>

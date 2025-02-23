@@ -1,7 +1,7 @@
 <!-- Blank Page Markdown Template, Make sure quasar markdown extension is installed first! -->
 <template>
     <!-- Dark style -->
-    <q-chip class="q-ma-md" label="Topics Generated" />
+    <q-chip class="q-ma-md" outline size="lg" icon="topic" color="primary" label="Topics Generated" />
     <div class="q-mb-lg">
           <!-- Content -->
           <q-markdown :src="markdown"></q-markdown>
