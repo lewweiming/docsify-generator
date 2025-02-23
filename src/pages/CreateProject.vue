@@ -88,8 +88,11 @@ const generateTopics = async () => {
   }
 
   if (r.data.message == "success") {
+
     appStore.topics = r.data.topics;
+    appStore.projectDescription = project.value.description;
     appStore.saveTopicsToLocalStorage();
+    appStore.saveProjectDescriptionToLocalStorage();
 
     $q.notify({
       type: "positive",

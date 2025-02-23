@@ -6,14 +6,20 @@ const API_DOCSIFY_GENERATOR_GENERATE_PAGES = 'https://ai.webconxept.com/api/docs
 const API_DOCSIFY_GENERATOR_GENERATE_TOPICS = 'https://ai.webconxept.com/api/docsify-generator/generate_topics.php'
 
 export const appStore = reactive({
+  projectDescription: localStorage.getItem('projectDescription') || '',
   topics: JSON.parse(localStorage.getItem('topics')) || [], // Can be modified or loaded from localstorage
   tasks: [], // 
+  saveProjectDescriptionToLocalStorage() {
+    localStorage.setItem('projectDescription', this.projectDescription);
+  },
   saveTopicsToLocalStorage() {
     localStorage.setItem('topics', JSON.stringify(this.topics));
   },
   reset() {
     this.topics = [];
     this.tasks = [];
+    this.projectDescription = '';
+    localStorage.removeItem("projectDescription");
     localStorage.removeItem("topics");
   },
   // Tasks are similar to topics but with status, run when generate pages.

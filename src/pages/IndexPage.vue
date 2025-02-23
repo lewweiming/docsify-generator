@@ -15,11 +15,11 @@
 
       <!-- Action Buttons -->
       <div class="row q-gutter-md justify-center q-mt-md">
-        <q-btn size="lg" color="primary" outline label="Create Project" to="/create-project" />
-        <q-btn size="lg" color="primary" outline label="Manage Projects" to="/manage-projects" />
-        <q-btn size="lg" color="primary" outline label="View Documents" to="/documents" />
-        <q-btn size="lg" color="primary" outline label="Generate Sidebar" to="/generate-sidebar" />
-        <q-btn size="lg" color="primary" outline label="Export to Docsify" to="/export" />
+        <q-btn size="lg" color="primary" outline label="Create Project" />
+        <q-btn size="lg" color="primary" outline label="Manage Projects" />
+        <q-btn size="lg" color="primary" outline label="View Documents" />
+        <q-btn size="lg" color="primary" outline label="Generate Sidebar" />
+        <q-btn size="lg" color="primary" outline label="Export to Docsify" />
       </div>
     </div>
 

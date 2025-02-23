@@ -26,12 +26,13 @@
         </q-btn-dropdown>
         <q-btn type="a" href="https://ai.webconxept.com/docsify-generator/output" target="blank" flat no-caps to="#"
           label="Preview Project" />
-        
-        <div>Quasar v{{ $q.version }}</div>
+        <q-btn type="a" href="https://ai.webconxept.com/api/docsify-generator/download.php" target="blank" flat no-caps
+          to="#" label="Download Project" />
+
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
+    <q-drawer :width="400" v-model="leftDrawerOpen" show-if-above bordered>
       <LeftSidebar />
     </q-drawer>
 
