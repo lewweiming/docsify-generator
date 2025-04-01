@@ -29,6 +29,8 @@
           label="Preview Project" />
         <q-btn icon="download" type="a" href="https://ai.webconxept.com/api/docsify-generator/download.php" target="blank" flat no-caps
           to="#" label="Download Project" />
+          <q-btn flat label="News" to="/news" />
+          <q-btn flat icon="img:assets/icons/github-mark-white.svg" type="a" round href="https://github.com/lewweiming/docsify-generator" />
 
       </q-toolbar>
     </q-header>
