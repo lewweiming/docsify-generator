@@ -9,8 +9,17 @@ const routes = [
       { path: 'edit-json', component: () => import('pages/EditJSON.vue') },
       { path: 'generate-pages', component: () => import('pages/GeneratePages.vue') },      
       { path: 'generate-web-pages', component: () => import('pages/GenerateWebPages.vue') },      
+      { path: 'preview-website', component: () => import('src/pages/PreviewWebsite.vue') },      
     ]
   },
+  {
+    path: '/preview',
+    component: () => import('layouts/WebsitePreviewLayout.vue'),
+    children: [     
+      { path: 'website', component: () => import('src/pages/PreviewWebsite.vue') },      
+    ]
+  },
+
 
   // Always leave this as last one,
   // but you can also remove it

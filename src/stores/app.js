@@ -7,6 +7,7 @@ const API_DOCSIFY_GENERATOR_GENERATE_WEB_PAGES = 'https://ai.webconxept.com/api/
 const API_DOCSIFY_GENERATOR_GENERATE_TOPICS = 'https://ai.webconxept.com/api/docsify-generator/generate_topics.php'
 
 export const appStore = reactive({
+  webpagePreviewSrc: 'https://ai.webconxept.com/docsify-generator/output-webpages/legal/privacy.html', // Used when previewing webpages
   projectDescription: localStorage.getItem('projectDescription') || '',
   topics: JSON.parse(localStorage.getItem('topics')) || [], // Can be modified or loaded from localstorage
   tasks: [], // 
