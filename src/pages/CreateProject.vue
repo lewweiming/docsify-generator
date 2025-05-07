@@ -13,29 +13,34 @@
       <q-card-section v-if="isCleanSlate">
         <div class="text-h5">Create New Docsify Project</div>
         <p>This will clear the existing project.</p>
-    
-        <q-input
-          v-model="project.description"
-          label="Project Description"
-          outlined
-          type="textarea"
-        />
-        <q-btn
-          @click="generateTopics()"
-          :loading="isGenerating"
-          size="lg"
-          label="Create Project"
-          color="primary"
-          class="q-mt-md full-width"
-        />
+
+        <q-banner class="bg-grey-2">
+          <template v-slot:avatar>
+            <q-icon name="info" color="primary" />
+          </template>
+          <div class="text-h6">Example website prompt if generating webpages instead:</div>
+          I need a tutor platform to connect tutors with students it should include dashboard for tutors and a dashboard for students. I need a list of pages that can be generated as html for the platform.
+          <template v-slot:action>
+            <q-btn @click="copyPrompt('I need a tutor platform to connect tutors with students it should include dashboard for tutors and a dashboard for students. I need a list of pages that can be generated as html for the platform.')" flat color="primary" label="Copy Prompt" />
+          </template>
+        </q-banner>
+        <p></p>
+
+
+
+
+        <q-input v-model="project.description" label="Project Description" outlined type="textarea" />
+        <q-btn @click="generateTopics()" :loading="isGenerating" size="lg" label="Create Project" color="primary"
+          class="q-mt-md full-width" />
       </q-card-section>
     </q-card>
   </q-page>
 </template>
-  
+
 <script setup>
 import { ref } from "vue";
 import { useQuasar } from "quasar";
+import { copyToClipboard } from 'quasar'
 import { appStore } from "stores/app.js";
 
 const $q = useQuasar();
@@ -59,14 +64,14 @@ const project = ref({
 });
 
 const reset = () => {
-  
+
   appStore.reset();
 
   checkIfCleanSlate();
 
   $q.notify({
-      message: 'Localstorage reset!',
-    });
+    message: 'Localstorage reset!',
+  });
 }
 
 const generateTopics = async () => {
@@ -102,4 +107,17 @@ const generateTopics = async () => {
     return true;
   }
 };
+
+const copyPrompt = (str) => {
+
+  copyToClipboard(str)
+    .then(() => {
+      // success!
+      $q.notify('Copied prompt to clipboard')
+    })
+    .catch(() => {
+      // fail
+    })
+}
+
 </script>

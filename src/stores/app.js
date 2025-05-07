@@ -3,6 +3,7 @@ import { reactive } from 'vue'
 import axios from 'axios'
 
 const API_DOCSIFY_GENERATOR_GENERATE_PAGES = 'https://ai.webconxept.com/api/docsify-generator/generate_pages.php'
+const API_DOCSIFY_GENERATOR_GENERATE_WEB_PAGES = 'https://ai.webconxept.com/api/docsify-generator/generate_web_pages.php'
 const API_DOCSIFY_GENERATOR_GENERATE_TOPICS = 'https://ai.webconxept.com/api/docsify-generator/generate_topics.php'
 
 export const appStore = reactive({
@@ -51,6 +52,19 @@ export const appStore = reactive({
     fd.append('link', payload.link)
     fd.append('folder', payload.folder)
     let r = await axios.post(API_DOCSIFY_GENERATOR_GENERATE_PAGES, fd)
+
+    return r;
+  },
+  async generateWebPage(payload) {
+
+    if (!('folder' in payload)) {
+      payload['folder'] = ''
+    }
+
+    let fd = new FormData();
+    fd.append('link', payload.link)
+    fd.append('folder', payload.folder)
+    let r = await axios.post(API_DOCSIFY_GENERATOR_GENERATE_WEB_PAGES, fd)
 
     return r;
   }

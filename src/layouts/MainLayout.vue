@@ -23,12 +23,30 @@
                 <q-item-label>Generate Pages</q-item-label>
               </q-item-section>
             </q-item>
+            <q-item to="/generate-web-pages" clickable v-close-popup>
+              <q-item-section>
+                <q-item-label>Generate Web Pages</q-item-label>
+              </q-item-section>
+            </q-item>
           </q-list>
         </q-btn-dropdown>
         <q-btn icon="preview" type="a" href="https://ai.webconxept.com/docsify-generator/output" target="blank" flat no-caps to="#"
           label="Preview Project" />
-        <q-btn icon="download" type="a" href="https://ai.webconxept.com/api/docsify-generator/download.php" target="blank" flat no-caps
-          to="#" label="Download Project" />
+
+          <q-btn-dropdown icon="download" flat no-caps label="Download">
+          <q-list>
+            <q-item href="https://ai.webconxept.com/api/docsify-generator/download.php" target="blank" clickable v-close-popup>
+              <q-item-section>
+                <q-item-label>Download Docsify</q-item-label>
+              </q-item-section>
+            </q-item>
+            <q-item href="https://ai.webconxept.com/api/docsify-generator/download_webpages.php" target="blank" clickable v-close-popup>
+              <q-item-section>
+                <q-item-label>Download Webpages</q-item-label>
+              </q-item-section>
+            </q-item>
+            </q-list>
+            </q-btn-dropdown>
           <q-btn flat label="News" to="/news" />
           <q-btn flat icon="img:assets/icons/github-mark-white.svg" type="a" round href="https://github.com/lewweiming/docsify-generator" />
 

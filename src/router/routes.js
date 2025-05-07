@@ -8,6 +8,7 @@ const routes = [
       { path: 'create-project', component: () => import('pages/CreateProject.vue') },
       { path: 'edit-json', component: () => import('pages/EditJSON.vue') },
       { path: 'generate-pages', component: () => import('pages/GeneratePages.vue') },      
+      { path: 'generate-web-pages', component: () => import('pages/GenerateWebPages.vue') },      
     ]
   },
 
